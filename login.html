@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.css'>
+        <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css'>
+    </head>
+
+    <body>
+        <div class="page-login">
+            <div class="ui center grid container">
+                <div class="nine wide column">
+                    <div id="login"><h2>Login Your Account</h2></div>
+                    <div class="ui fluid card">
+                        <div class="content">
+                            <form action="action.php" class="ui form" method="POST">
+                                <div class="field">
+                                    <label>User</label>
+                                    <input type="text" name="User" placeholder="Username">
+                                </div>
+
+                                <div class="field">
+                                    <label>Password</label>
+                                    <input type="text" name="Password" placeholder="Password">
+                                </div> 
+                                
+                                <button class="ui primary labeled icon button" type="submit">
+                                    <i class="unlock alternative icon"></i>
+                                    <a href="dashboard/index.html" id="login-text">Login</a>   
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
+

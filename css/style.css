@@ -1,0 +1,15 @@
+body{
+    background-color: white; 
+}
+.page-login{
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+#login{
+    align-content: center;
+    color: midnightblue;
+}
+#login-text{
+    color:whitesmoke;
+}
